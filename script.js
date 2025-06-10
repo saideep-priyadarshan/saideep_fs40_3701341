@@ -1,5 +1,7 @@
+import API_KEY from "./apikey.js";
+
 document.addEventListener("DOMContentLoaded", () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = API_KEY;
   const videoGrid = document.getElementById("video-grid");
   const searchBar = document.getElementById("search-bar");
   const searchButton = document.getElementById("search-button");

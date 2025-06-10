@@ -4,7 +4,7 @@ This project is a simplified clone of the YouTube web application, created using
 
 ## Deployed Link
 
-I'll provide the deployed link here once ready
+Here's the [Deployed Link](https://yt-essential.netlify.app/)
 
 ## Features
 
@@ -42,8 +42,8 @@ I'll provide the deployed link here once ready
 3.  **Add your API Key:**
 
     - Open the `script.js` file.
-    - Find the line: `const apiKey = process.env.API_KEY;`
-    - Replace `process.env.API_KEY` with the API key you obtained.
+    - Find the line: `const apiKey = API_KEY;`
+    - Replace `API_KEY` with the API key you obtained.
 
 4.  **Open `index.html` in your browser:**
 
