@@ -25,8 +25,8 @@ I'll provide the deployed link here once ready
 1.  **Clone the repository:**
 
     ```bash
-    git clone <saideep_fs40_3701341>
-    cd <saideep_fs40_3701341>
+    git clone https://github.com/saideep-priyadarshan/saideep_fs40_3701341.git
+    cd saideep_fs40_3701341
     ```
 
 2.  **Get a YouTube Data API v3 Key:**
