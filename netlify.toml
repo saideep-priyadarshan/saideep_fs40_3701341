@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/suggestions/*"
+  to = "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&q=:splat"
+  status = 200
+  force = true
