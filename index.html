@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-container">
+        <a class="logo-container" href="#">
+          <img src="youtube_logo.png" alt="YouTube Logo" id="logo" />
+          <span class="logo-text">YouTube</span>
+        </a>
+        <div class="search-container">
+          <input type="text" id="search-bar" placeholder="Search" />
+          <button id="search-button">Search</button>
+          <div id="search-suggestions" class="suggestions-container"></div>
+        </div>
+        <div class="nav-links">
+          <a href="#" id="home-link">Home</a>
+          <a href="#" id="trending-link">Trending</a>
+          <a href="#" id="subscriptions-link">Subscriptions</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="dashboard">
+      <div id="video-grid" class="video-grid-container"></div>
+      <div id="video-player-container" style="display: none">
+        <iframe
+          id="youtube-iframe-player"
+          width="560"
+          height="315"
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
