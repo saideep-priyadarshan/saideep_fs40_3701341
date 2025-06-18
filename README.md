@@ -1,6 +1,6 @@
-# YouTube Clone Project
+# EssenTube Project
 
-This project is a simplified clone of the YouTube web application, created using HTML, CSS, and JavaScript. It fetches and displays videos from the YouTube Data API v3 and presents them in a dashboard layout.
+This project is a video streaming platform inspired by YouTube's UI, created using HTML, CSS, and JavaScript. It fetches and displays videos from the YouTube Data API v3 and presents them in a dashboard layout.
 
 ## Deployed Link
 
